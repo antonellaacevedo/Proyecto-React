@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.checkout{
+    height: 90vh;
+
+    h2{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding: 15px 0px 15px 0px;
+    }
+
+    .containerform{
+        display: flex;
+        flex-direction: column;
+        width: 50vh;
+       
+        padding: 10px 10px 10px 10px;
+        background-color:#73C6B6;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    
+        .form {
+    
+           
+            display: flex;
+            flex-direction: column;
+            padding: 5px 5px 5px 5px;
+            height: 400px;
+    
+            h4{
+                text-align: center;
+            }
+    
+            input {
+            margin: 20px 5px 20px 5px;
+            border: black solid 1px;
+            padding: 10px;
+            }
+            
+            button{
+            width: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 7px 5px 5px 5px;
+             background-color:#ffcd00;
+             color: black;
+             font-weight: bold;
+             
+             border: black 1px solid;
+             border-radius: 10px;
+    
+    
+    
+            }
+    
+    
+    
+            
+        }
+    
+    
+    }
+}
+
+.ordendecompra{
+    height: 50vh;
+    padding: 20px 20px 20px 20px;
+    p{
+        margin: 10px 10px 10px 0px;
+    }
+
+    .vermas{
+        background-color: black;
+        color: white;
+        padding: 5px 5px 5px 5px;
+        margin: 5px 5px 5px 5px
+    }
+}
+

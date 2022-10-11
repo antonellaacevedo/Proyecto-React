@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.carga{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .loader22{
+        align-self: center;
+       
+    }
+}

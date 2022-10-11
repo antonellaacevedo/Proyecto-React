@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.witget{
+    font-size:  30px;
+    visibility: hidden;
+    opacity: 0;
+
+    img{
+    width: 50px;
+    height: 40px;
+    }
+
+}
+span.contadorwitget{
+    color: #ffcd00;
+    font-size: 20px;
+    text-decoration-color: black;
+}
+
+
+.witget-visible{
+    visibility: visible;
+    opacity: 1;
+
+   
+}
+

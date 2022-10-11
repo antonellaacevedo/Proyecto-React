@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.cart{
+
+    height:80vh;
+
+    .carritotitulo{
+        text-align: center;
+        padding: 10px 0px 10px 0px ;
+     }
+     
+     .containerproductosencarrito{
+         background-color: #121212;
+         width: 50%;
+         margin-left: auto;
+         margin-right: auto;
+     
+         .productosencarrito{
+             width: 100%;
+             color: white;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-around;
+             padding: 10px 0px 10px 0px;
+     
+             h2{
+                 font-size: 20px;
+                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             }
+     
+             .eliminardelcarrito{
+                 padding: 1px 7px 2px 7px;
+                 margin: 1px 1px 1px 1px;
+                 background-color:#ffcd00;
+                 color: black;
+             }
+             .eliminardelcarrito:hover{
+                 background-color: #73C6B6;
+             }
+     
+            
+         
+         }
+     
+         .preciototal{
+             color: white;
+             padding: 10px 10px 10px 10px;
+             font-size: 20px;
+         }
+     
+         .vaciarcarrito{
+            padding: 7px 5px 5px 5px;
+             background-color:#ffcd00;
+             color: black;
+             font-weight: bold;
+             margin: 3px 3px 3px 3px;
+             border: none;
+             
+            ;
+     
+        }
+    
+        .finalizarcompra{
+            background-color:#a00c0c;
+            color: black;
+            padding: 3px 3px 3px 3px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+            margin: 3px 3px 5px 3px;
+        }
+    
+        
+    
+     }
+     
+
+}
+
+
+.carritovacio{
+    
+    padding: 10px 10px 10px 20px;
+    height: 20vh;
+
+    h3{
+        padding-bottom: 20px;
+    }
+     
+    .iracomprar{
+     background-color:#a00c0c;
+     color: black;
+     padding: 5px 5px 5px 5px;
+     text-decoration: none;
+    font-weight: bold;
+     font-size: 15px;
+     margin: 3px 3px 5px 3px;
+    }
+
+   .iracomprar:hover{
+      background-color: #ffcd00;
+      cursor: pointer; 
+    }
+
+
+    
+
+}
